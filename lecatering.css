@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.fulldiv{
+    display: block;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    background-color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+.about{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -10px;
+}
+.about a{
+    padding: 10px;
+}
+
+/* .secondpart */
+
+
+.secondpart{
+    position: relative;
+    border-width: 100%;
+
+}
+.img{
+    position: absolute;
+    width: 100%;
+}
+.img img{
+    width:100%;
+}
+
+.lecatering{
+    position: absolute;
+    font-size: larger;
+    font-weight: 100;
+    top: 650px;
+    left: 30px;
+    color: rgb(113, 111, 111);
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* align-items: flex-start; */
+    /* z-index: 1; */
+}
+
+
+/* third */
+
+.third{
+    width: 100%;
+    display: flex;
+    /* margin-top: 600px; */
+
+}
+.third .food img{
+    width: 300px;
+}

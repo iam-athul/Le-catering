@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    border-bottom: .5px solid white;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.navbar a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400px;
+    color: black;
+    letter-spacing: 4px;
+}
+.firstname{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid white; */
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+   
+}
+.firstname a{
+    text-align: left;
+    /* padding: 20px; */
+  
+}
+.firstname:hover{
+    background-color: rgb(206, 202, 202);
+    /* padding: 10px; */
+}
+.secondname {
+    width: 100%;
+    height: 20px;
+    padding: 15px;
+    display: flex;
+    margin-left: 900px;
+}
+.class2{
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-top: -10px;
+   
+
+}
+.class3{
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-top: -10px;
+   
+}
+.class4{
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-top: -10px;
+   
+}
+.class2:hover{
+    background-color: rgb(206, 202, 202);
+}
+.class3:hover{
+    background-color: rgb(206, 202, 202);
+}
+.class4:hover{
+    background-color: rgb(206, 202, 202);
+}
+
+/* .seconddiv */
+
+
+.seconddiv{
+    width: 100%;
+    /* height: 70%; */
+    position: relative;
+    border: 2px solid black;
+    
+}
+.food{
+    position: absolute;
+}
+.seconddiv img{
+    width: 100%;
+    height: 770px;
+}
+.seconddiv .heading{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+}
+.seconddiv .heading p{
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: rgb(105, 101, 101);
+    font-weight: 100;
+    margin-top: 45%;
+    margin-left: 25px;
+}
+
+/* thirddiv */
+
+.thirddiv{
+    width: 70%;
+    height: 800px;
+    margin-left: 15%;
+    margin-top: 50%;
+    border-bottom: .5px solid rgb(184, 181, 181);
+    display: flex;
+    /* padding: 100px; */
+}
+.thirddiv img{
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.para{
+    margin-top: 10%;
+}
+.para li{
+    list-style-type: none;
+}
+.catering p{
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-left: 17%;
+    margin-top: -20px;
+}
+.tradition p{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-left: 21%;
+}
+.content p{
+    font-size: 19px;
+    word-spacing: 2px;
+    text-align: left;
+    padding: 10px;
+    line-height: 30px;
+} 
+
+
+/* fouthdiv */
+
+
+.fourthdiv{
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 80px;
+}
+.ourmenu{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-top: 15px;
+
+}
+.ourmenu li{
+    list-style-type: none;
+    text-align: left;
+    line-break: 20px;
+    margin-left: 200px;
+    /* margin-top: 50px; */
+}
+.ourmenu h3{
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.838);
+}
+.ourmenu p{
+    color: gray;
+}
+.ourmenu .main p{
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-left: 150px;
+    /* margin-top: 70px; */
+}
+.menuimg img{
+    width: auto;
+    width: 500px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* fifthdiv */
+
+
+.fifthdiv{
+    width: 70%;
+    height: 800px;
+    border-top: .5px solid rgb(184, 181, 181);
+    margin-left: 15%;
+    margin-top: 100px;
+
+}
+.fifthdiv ul{
+    margin-top: 100px;
+}
+.fifthdiv li{
+    list-style-type: none;
+    word-spacing: 5px;
+    margin-left: -30px;
+}
+.fifthdiv p{
+    font-size: 35px;
+    letter-spacing: 5px;
+    /* margin-left: -20px; */
+}
+.living{
+    color: rgb(100, 100, 141);
+    font-size: large;
+    font-weight: 600;
+}
+.fifthdiv input{
+    width: 100%;
+    height: 40px; 
+    margin-left: 10px;
+    border-bottom: .5px solid rgb(170, 160, 160);
+    border-top: .5px solid white;
+    border-right: .5px solid white;
+    border-left: .5px solid white;
+}
+.fifthdiv button{
+    width: 140px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid rgb(239, 235, 235);
+    background-color: rgb(239, 235, 235) ;
+    margin-left: 10px;
+}
+.fifthdiv button:hover{
+    background-color: rgb(206, 202, 202);
+}
